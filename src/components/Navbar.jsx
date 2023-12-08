@@ -41,12 +41,13 @@ const Navbar = () => {
         {/* navbar */}
         <nav className='flex items-center justify-between md:py-4 pt-6 pb-3'>
             <FaSearch className='text-black w-5 h-5 cursor-pointer hidden md:block'/>
-            <a href=""><img src={logo} alt="" /></a>
-            <div className='text-lg text-black sm:flex items-center  gap-2 hidden'>
-                <a href="" className='flex items-center gap-2'>
+            
+            {/* <a href=""><img src={logo} alt="" /></a> */}
+            <div className='text-lg text-black sm:flex items-center  gap-4 hidden '>
+                <a href="" className='flex items-center gap-2 hover:text-orange-500'>
                 <FaUser /> Account
                 </a>
-                <a href="" className='flex items-center gap-2'>
+                <a href="" className='flex items-center gap-2 hover:text-orange-500'>
                 <FaShoppingBag /> Shopping
                 </a>
             </div>
